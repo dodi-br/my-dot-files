@@ -30,5 +30,3 @@ if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
         p_note "Default shell is already ZSH ... skipping"
     fi
 fi
-
-source "~/.zshrc"
