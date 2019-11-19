@@ -3,7 +3,7 @@
 # Brew configuration for Dodi's Dotfiles
 
 BREW_BUNDLE_DIR="$DOTFILES_DIR/brew/brewfile"
-CASK_BUNDLE_DIR="$DOTFILES_DIR/brew/brewfile"
+CASK_BUNDLE_DIR="$DOTFILES_DIR/brew/caskfile"
 
 p_header "Its Homebrew time..."
 if test ! $(which brew); then
